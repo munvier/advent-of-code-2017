@@ -21,7 +21,7 @@
     }
 
 
-    echo "PART 1 = SOLUTION : ".$solution;
+    echo "PART 1 - SOLUTION : ".$solution;
     echo "\n";
     echo "----------------------------------------------";
     echo "\n";
