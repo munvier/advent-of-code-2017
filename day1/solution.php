@@ -11,14 +11,8 @@
     $array_length   = count($array);
 
     foreach($array as $key => $number) {
-        if ($key !== $array_length - 1) {
-            if ($array[$key + 1] === $number) {
-                $solution += $number;
-            }
-        } else {
-            if ($array[0] === $number) {
-                $solution += $number;
-            }
+        if ($array[($key + 1) % $array_length] === $number) {
+            $solution += $number;
         }
     }
 
