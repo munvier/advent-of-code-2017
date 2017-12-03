@@ -1,10 +1,9 @@
 <?php
-    echo "----------------------------------------------";
-    echo "\n";
-    echo "DAY 1";
-    echo "\n";
-    echo "----------------------------------------------";
-    echo "\n";
+    require __DIR__ . '/../constants.php';
+    
+    echo PHP_LINE;
+    echo "DAY 1".PHP_EOL;
+    echo PHP_LINE;
 
     $input          = file_get_contents(__DIR__ . '/input.txt');
 
@@ -21,10 +20,8 @@
     }
 
 
-    echo "PART 1 - SOLUTION : ".$solution;
-    echo "\n";
-    echo "----------------------------------------------";
-    echo "\n";
+    echo "PART 1 - SOLUTION : ".$solution . PHP_EOL;
+    echo PHP_LINE;
 
     $solution       = 0;
 
@@ -36,6 +33,5 @@
         }
     }
     
-    echo "PART 2 - SOLUTION : ".$solution;
-    echo "\n";
-    echo "----------------------------------------------";
+    echo "PART 2 - SOLUTION : ".$solution.PHP_EOL;
+    echo PHP_LINE;

@@ -1,10 +1,9 @@
 <?php
-    echo "----------------------------------------------";
-    echo "\n";
-    echo "DAY 2";
-    echo "\n";
-    echo "----------------------------------------------";
-    echo "\n";
+    require __DIR__ . '/../constants.php';
+    
+    echo PHP_LINE;
+    echo "DAY 2".PHP_EOL;
+    echo PHP_LINE;
 
     $input          = file_get_contents(__DIR__ . '/input.txt');
 
@@ -21,10 +20,8 @@
         $checksum   += $max - $min;
     }
 
-    echo "PART 1 - CHECKSUM : ".$checksum;
-    echo "\n";
-    echo "----------------------------------------------";
-    echo "\n";
+    echo "PART 1 - CHECKSUM : ".$checksum.PHP_EOL;
+    echo PHP_LINE;
     
     $checksum       = 0;
     
@@ -46,7 +43,6 @@
         }
     }
     
-    echo "PART 2 - CHECKSUM : ".$checksum;
-    echo "\n";
-    echo "----------------------------------------------";
+    echo "PART 2 - CHECKSUM : ".$checksum.PHP_EOL;
+    echo PHP_LINE;
     

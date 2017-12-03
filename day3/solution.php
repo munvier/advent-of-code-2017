@@ -1,10 +1,9 @@
 <?php
-    echo "----------------------------------------------";
-    echo "\n";
-    echo "DAY 3";
-    echo "\n";
-    echo "----------------------------------------------";
-    echo "\n";
+    require __DIR__ . '/../constants.php';
+    
+    echo PHP_LINE;
+    echo "DAY 3".PHP_EOL;
+    echo PHP_LINE;
 
     define('DOWN', 0);
     define('RIGHT', 1);
@@ -76,10 +75,8 @@
 
     $answer = (abs($a_x - $b_x) + abs($a_y - $b_y));
 
-    echo "PART 1 - ANSWER : ".$answer;
-    echo "\n";
-    echo "----------------------------------------------";
-    echo "\n";
+    echo "PART 1 - ANSWER : ".$answer.PHP_EOL;
+    echo PHP_LINE;
 
     $distance_left_to_run_in_that_direction = $distance = 1;
 
@@ -147,6 +144,5 @@
         $number++;
     }
 
-    echo "PART 2 - ANSWER : ".$computed_number;
-    echo "\n";
-    echo "----------------------------------------------";
+    echo "PART 2 - ANSWER : ".$computed_number.PHP_EOL;
+    echo PHP_LINE;
