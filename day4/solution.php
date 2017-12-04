@@ -5,11 +5,6 @@
     echo "DAY 3".PHP_EOL;
     echo PHP_LINE;
 
-    define('DOWN', 0);
-    define('RIGHT', 1);
-    define('UP', 2);
-    define('LEFT', 3);
-
     $input      = file_get_contents(__DIR__ . '/input.txt');
 
     $lines      = explode("\n", $input);
