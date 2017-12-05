@@ -1,8 +1,8 @@
 <?php
-    define('PHP_LINE', '------------------------'.PHP_EOL);
+    require __DIR__ . '/../constants.php';
 
     echo PHP_LINE;
-    echo "DAY 3".PHP_EOL;
+    echo "DAY 4".PHP_EOL;
     echo PHP_LINE;
 
     $input      = file_get_contents(__DIR__ . '/input.txt');
